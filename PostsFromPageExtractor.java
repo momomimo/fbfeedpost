@@ -7,7 +7,7 @@ import facebook4j.Post;
 import facebook4j.Reading;
 import facebook4j.ResponseList;
 import facebook4j.auth.AccessToken;
-
+//Sutrimo 16.01.53.0183
 public class PostsFromPageExtractor {
 
 
@@ -16,11 +16,11 @@ public static void main(String[] args) throws FacebookException {
  // Generate facebook instance.
 Facebook facebook = new FacebookFactory().getInstance();
 // Use default values for oauth app id.
-facebook.setOAuthAppId("366983410667498", "1e85d37cd9c123a970cec04f27802006");
+facebook.setOAuthAppId("366RAHASIA67498", "1e85d37cdRAHASIA04f27802006");
 // Get an access token from: 
 // https://developers.facebook.com/tools/explorer
 // Copy and paste it below.
-String accessTokenString = "EAAFNxPvUzZBoBADPGdPoQwOMix07jhF4rnxO7LurPKzKcjOmd3i9qPoqWZBgdiEE9kiXkTeFXDRZAAS78hje7VRRNb1jVAAKWaSAbwdplZBXgVCEnZArYVLCH4xcaX0gvSZC3K0INwueEa2PkMzOO8qhzNY9ZBQlvauw6ZAKziSakFsrcx4ZBj1BBc8m3OzfTgJ5xA3zZAi9tWzwZDZD";
+String accessTokenString = "EAAFNxPvUzZBoBADPGdPoQwOMix07jhF4rnxORAHASIAiEE9kiXkTeFXDRZAAS78hje7VRRNb1jVAAKWaSAbwdplZBXgVCEnZArYVLCH4xcaX0gvSZC3K0INwueEa2PkMzOO8qhzNY9ZBQlvauw6ZAKziSakFsrcx4ZBj1BBc8m3OzfTgJ5xA3zZAi9tWzwZDZD";
 AccessToken at = new AccessToken(accessTokenString);
 // Set access token.
 facebook.setOAuthAccessToken(at);
@@ -32,7 +32,7 @@ facebook.setOAuthAccessToken(at);
 
  // Set limit to 25 feeds.
 
- ResponseList<Post> feeds = facebook.getFeed("1325060650993907",
+ ResponseList<Post> feeds = facebook.getFeed("1325RAHASIA93907",
 new Reading().limit(25));
 
  // For all 25 feeds...
